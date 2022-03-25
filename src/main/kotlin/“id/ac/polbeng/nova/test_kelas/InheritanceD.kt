@@ -17,7 +17,7 @@ class SoftwareEngineer : EmployeeD() {
 }
 class ProjectManager : EmployeeD() {
     // Use "override" modifier to override the property of base class
-    override val baseSalary: Int = 10000000
+    override val baseSalary: Int = 8000000
 }
 fun toRupiahFormat(baseSalary: Int) : String{
     val localeID = Locale("in", "ID")
