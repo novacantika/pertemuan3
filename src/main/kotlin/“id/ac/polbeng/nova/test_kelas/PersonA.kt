@@ -11,7 +11,7 @@ class PersonA (_firstName: String, _lastName: String, _age: Int) {
     }
 }
 fun main(){
-    val nova = PersonA("Nova", "Cantika fitri", 21)
+    val nova = PersonA("Nova", "Cantika fitri", 20)
     println("Name : ${nova.firstName} ${nova.lastName}")
     println("Age : ${nova.age}")
 }
